@@ -7,16 +7,18 @@
 
 ;;(def coll (.getClose (.getHistory (YahooFinance/get "dax"))))
 
-(def h (.getHistory (YahooFinance/get "dax")))
-(def close (.getClose h))
+(def h (.getHistory (yahoofinance.YahooFinance/get "dax")))
+(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get "dax"))))
+(println price)
 
-(def closePrices (for [x h] (cons (.getClose x) closePrices)))
-
-
+(def closePrices (for [x h] (conj closePrices (.getClose x))))
+(println (count closePrices))
+(count closePrices)
 ;;(defn calculate-mean [coll] (not-empty [coll] (/ (reduce + [coll]) (count [coll]))))
 
 ;;(def)
 
+(mean closePrices)
 (defn mean [coll]
   (let [sum (apply + coll)
         count (count coll)]
@@ -49,13 +51,15 @@
 (defn calc-daily-volatility [coll] (standard-deviation [coll]))
 (defn calc-annual-volatility [coll] (* (Math/sqrt 252) calc-daily-volatility [coll]))
 
+(incanter.stats/quantile-normal 0.5 0 0.5)
+(standard-deviation closePrices)
+(mean closePrices)
 
-
-
-(defn calc-mcs-price [prob mean price]
+(defn calc-mcs-price [prob mn price]
   (* price (+ 1
-              (incanter.stats/quantile-normal prob mean calc-daily-volatility [closePrices]))))
+              (incanter.stats/quantile-normal prob mn (calc-daily-volatility closePrices)))))
 
 ;;ovo je komentar
 (defn calc-mcs-prices [startPrice] (
                                      (calc-mcs-price rand 0 startPrice)))
+(calc-mcs-prices price)
