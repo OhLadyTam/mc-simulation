@@ -17,7 +17,7 @@
 ;;(defn calculate-mean [coll] (not-empty [coll] (/ (reduce + [coll]) (count [coll]))))
 
 ;;(def)
-
+;;
 (mean closePrices)
 (defn mean [coll]
   (let [sum (apply + coll)
