@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1499893142644">{:repl-history {:ide [], :local [&quot;(ns clj-test1.core :require [yahoofinance-api-develop :as yahoo])&quot; &quot;(ns clj-test1.core)\n  &quot; &quot;(ns clj-test1.core)&quot; &quot;*ns*&quot;], :remote []}}</component>
+</project>
