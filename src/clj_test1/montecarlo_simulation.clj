@@ -56,6 +56,6 @@
   (* price (+ 1
               (incanter.stats/quantile-normal prob mean calc-daily-volatility [closePrices]))))
 
-
+;;ovo je komentar
 (defn calc-mcs-prices [startPrice] (
                                      (calc-mcs-price rand 0 startPrice)))
