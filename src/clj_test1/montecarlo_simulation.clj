@@ -50,7 +50,7 @@
 (defn calc-annual-volatility [coll] (* (Math/sqrt 252) calc-daily-volatility [coll]))
 
 
-
+;; da li radi
 
 (defn calc-mcs-price [prob mean price]
   (* price (+ 1
