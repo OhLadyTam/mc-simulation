@@ -12,15 +12,15 @@
 (def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
 (println price)
 
-(def closePrices (for [x h] (conj closePrices (.getClose x))))
-(println closePrices)
-(count closePrices)
+;(def closePrices (for [x h] (conj closePrices (.getClose x))))
+;(println closePrices)
+;(count closePrices)
 ;;(defn calculate-mean [coll] (not-empty [coll] (/ (reduce + [coll]) (count [coll]))))
 
 ;;(def)
 ;;
 
-(def closePricesSum ((for [x closePrices] (+ (get closePrices (.indexOf x closePrices) closePricesSum)))))
+;(def closePricesSum ((for [x closePrices] (+ (get closePrices (.indexOf x closePrices) closePricesSum)))))
 
 
 (defn mean [coll]
@@ -92,3 +92,11 @@ println start
 (calc-mcs-prices start)
 (rand)
 
+(defn simulate [startPrice] (conj (vector (calc-mcs-price (rand) 0 start)) 5))
+(conj (vector (calc-mcs-price (rand) 0 start)) ())
+
+(defn simulate1 [startPrice] (let [prob (rand) prices (vector (calc-mcs-price prob 0 startPrice))]
+                              (conj prices (calc-mcs-price prob 0 (last prices)))))
+
+(let [prob (rand) prices (vector (calc-mcs-price prob 0 start))]
+  (conj prices (calc-mcs-price prob 0 (last prices))))
