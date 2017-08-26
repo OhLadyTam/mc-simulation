@@ -23,32 +23,11 @@
 
 
 (defn mean [coll]
-;  (/ (sum)))
   (let [sum (apply + coll)
         count (count coll)]
     (if (pos? count)
-      (/ sum count)
+      (/ (double sum) (double count))
       0)))
-
-(mean closePrices)
-
-
-(def vecClosePrices (vec '(closePrices)))
-(println vecClosePrices)
-(apply + vecClosePrices)
-
-(def vecCP (vector))
-(count vecClosePrices)
-((for [x h] (conj vecCP (.getClose x))))
-
-(conj vecCP (for [x h] (.getClose x)))
-
-(vecCP)
-(count vecCP)
-
-(def vecCP1 (vector (conj (for [x h] (.getClose x)))))
-
-(conj (for [x h] (.getClose x)))
 
 (def moj-vektor (conj (for [x h] (.getClose x)))) ;;OVO RADI - VEKTOR IMA 13 ELEMENATA
 (count moj-vektor)
@@ -85,13 +64,14 @@
            (- total 1))
         (Math/sqrt))))
 
+(standard-deviation moj-vektor)
 
-(defn calc-daily-volatility [coll] (standard-deviation [coll]))
-(defn calc-annual-volatility [coll] (* (Math/sqrt 252) calc-daily-volatility [coll]))
 
-(incanter.stats/quantile-normal 0.5 0 0.5)
-(standard-deviation closePrices)
-(mean closePrices)
+(defn calc-daily-volatility [coll] (standard-deviation coll))
+(defn calc-annual-volatility [coll] (* (Math/sqrt 252) (calc-daily-volatility coll)))
+
+(calc-daily-volatility moj-vektor)
+(calc-annual-volatility moj-vektor)
 
 (defn calc-mcs-price [prob mn price]
   (* price (+ 1
