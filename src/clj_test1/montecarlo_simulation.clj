@@ -56,14 +56,9 @@
 (apply + moj-vektor) ;; OVO RADI - SABIRA SVIH 13 ELEMENATA
 (mean moj-vektor) ;; NE RADI
 
+(let [sum (apply + moj-vektor) count (count moj-vektor)] (if (pos? count) (/ (double sum) (double count)) 0));; RADI MEAN pogledaj with-precision u clojure.docs za zaokruzivanje
 
 
-
-
-(count vecCP1)
-
-(def vecTT [1 2 3])
-(for [x vecCP1] (println 1))
 
 
 
