@@ -2,7 +2,8 @@
   (:require incanter.stats yahoofinance histquotes quotes.stock)
   (:import (yahoofinance YahooFinance Stock)
            (histquotes HistoricalQuote)
-           (quotes.stock StockQuote)))
+           (quotes.stock StockQuote)
+           (incanter.stats incanter.stats)))
 
 
 ;;(def coll (.getClose (.getHistory (YahooFinance/get "dax"))))
@@ -75,9 +76,19 @@
 
 (defn calc-mcs-price [prob mn price]
   (* price (+ 1
-              (incanter.stats/quantile-normal prob mn (calc-daily-volatility closePrices)))))
+              (incanter.stats/quantile-normal prob mn (calc-daily-volatility moj-vektor)))))
+
 
 ;;ovo je komentar
-(defn calc-mcs-prices [startPrice] (
-                                     (calc-mcs-price rand 0 startPrice)))
-(calc-mcs-prices price)
+(defn calc-mcs-prices [startPrice] (calc-mcs-price (rand) 0 startPrice))
+
+
+(def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
+
+println start
+
+(calc-mcs-price (rand) 0 start) ;; SVE RADI
+
+(calc-mcs-prices start)
+(rand)
+
