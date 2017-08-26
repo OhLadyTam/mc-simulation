@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eafa2f-3595-45ee-8db2-8d028a564cd6" name="Default" comment="" />
+    <list default="true" id="25eafa2f-3595-45ee-8db2-8d028a564cd6" name="Default" comment="ne radi mean">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/tamtam.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/tamtam.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clj-test1.iml" afterPath="$PROJECT_DIR$/clj-test1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj" afterPath="$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj" />
+    </list>
     <ignored path="clj-test1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +21,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="clj-test1" />
   </component>
@@ -33,8 +40,64 @@
       <file leaf-file-name="montecarlo_simulation.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="597">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/yahoofinance/Stock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2567">
+              <caret line="181" column="32" lean-forward="false" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#879#880#0" expanded="false" />
+                <element signature="e#915#916#0" expanded="false" />
+                <element signature="e#1756#1757#0" expanded="false" />
+                <element signature="e#1796#1797#0" expanded="false" />
+                <element signature="e#2026#2027#0" expanded="false" />
+                <element signature="e#2059#2060#0" expanded="false" />
+                <element signature="e#3144#3145#0" expanded="false" />
+                <element signature="e#3178#3179#0" expanded="false" />
+                <element signature="e#3394#3395#0" expanded="false" />
+                <element signature="e#3427#3428#0" expanded="false" />
+                <element signature="e#4492#4493#0" expanded="false" />
+                <element signature="e#4526#4527#0" expanded="false" />
+                <element signature="e#4757#4758#0" expanded="false" />
+                <element signature="e#4793#4794#0" expanded="false" />
+                <element signature="e#5895#5896#0" expanded="false" />
+                <element signature="e#5935#5936#0" expanded="false" />
+                <element signature="e#10133#10134#0" expanded="false" />
+                <element signature="e#10171#10172#0" expanded="false" />
+                <element signature="e#10208#10209#0" expanded="false" />
+                <element signature="e#10237#10238#0" expanded="false" />
+                <element signature="e#10395#10396#0" expanded="false" />
+                <element signature="e#10422#10423#0" expanded="false" />
+                <element signature="e#10466#10467#0" expanded="false" />
+                <element signature="e#10498#10499#0" expanded="false" />
+                <element signature="e#10663#10664#0" expanded="false" />
+                <element signature="e#10694#10695#0" expanded="false" />
+                <element signature="e#10746#10747#0" expanded="false" />
+                <element signature="e#10786#10787#0" expanded="false" />
+                <element signature="e#10972#10973#0" expanded="false" />
+                <element signature="e#11008#11009#0" expanded="false" />
+                <element signature="e#11070#11071#0" expanded="false" />
+                <element signature="e#11120#11121#0" expanded="false" />
+                <element signature="e#11170#11171#0" expanded="false" />
+                <element signature="e#11235#11236#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoricalQuote.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/histquotes/HistoricalQuote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -94,12 +157,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -115,18 +179,138 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yahoofinance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="histquotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj_test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-0.8.0/GitHubDesktop.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/yahoofinance" />
     <property name="cursive.last.file.extension.D\:/clj-testovi/src" value="clj" />
@@ -139,7 +323,7 @@
       <recent name="D:\clj-testovi" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1503449182723">{:repl-history {:ide [], :local [{:command &quot;&quot;, :offset 0} {:command &quot;(ns clj-test1.core)\n  &quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(ns clj-test1.core :require [yahoofinance-api-develop :as yahoo])&quot;, :offset 65} {:command &quot;(YahooFinance/get \&quot;dax\&quot;)&quot;, :offset 24, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(yahoofinance.YahooFinance/get \&quot;dax\&quot;)&quot;, :offset 37, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn getStock [] (yahoofinance.YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 56, :ns &quot;clj-test1.core&quot;} {:command &quot;(getStock)&quot;, :offset 10, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn get-stock [] (yahoofinance.YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 57, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require '(yahoofinance [YahooFinance :as yahoo]))\n  (:require '(Stock [Stock :as stock]))\n            \n  (:import (yahoofinance YahooFinance)\n           (yahoofinance Stock)\n           (histquotes HistoricalQuote)))&quot;, :offset 238, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn getStock []\n  (yahoofinance.YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 58, :ns &quot;clj-test1.core&quot;} {:command &quot;getStock&quot;, :offset 8, :ns &quot;clj-test1.core&quot;} {:command &quot;(def history (.getHistory getStock))&quot;, :offset 36, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require '(yahoofinance [YahooFinance :as yahoo]))\n  (import 'yahoofinance.Stock))&quot;, :offset 104, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (import yahoofinance.YahooFinance)\n  (import yahoofinance.Stock))&quot;, :offset 86, :ns &quot;clj-test1.core&quot;} {:command &quot;get-stock&quot;, :offset 9, :ns &quot;clj-test1.core&quot;} {:command &quot;(def history (.getHistory get-stock))&quot;, :offset 37, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (import '(yahoofinance Stock YahooFinance)))&quot;, :offset 65, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (require 'yahoofinance)\n  (import '(yahoofinance Stock YahooFinance)))&quot;, :offset 91, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance)\n  (:import '(yahoofinance Stock YahooFinance)))&quot;, :offset 92, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import (yahoofinance YahooFinance)))&quot;, :offset 129, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require \n            yahoofinance.YahooFinance)\n  (:import (yahoofinance YahooFinance)))&quot;, :offset 111, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import (yahoofinance YahooFinance Stock)))&quot;, :offset 135, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance)\n            \n  (:import (yahoofinance YahooFinance Stock)))&quot;, :offset 104, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import '(yahoofinance YahooFinance Stock)))&quot;, :offset 136, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import \n           (yahoofinance YahooFinance)\n           (yahoofinance Stock)))&quot;, :offset 173, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance)\n  (:import\n           (yahoofinance YahooFinance Stock)))&quot;, :offset 102, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn get-stock []\n  (YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 46, :ns &quot;clj-test1.core&quot;} {:command &quot;(get-stock)&quot;, :offset 11, :ns &quot;clj-test1.core&quot;} {:command &quot;(def h (.getHistory get-stock))&quot;, :offset 31, :ns &quot;clj-test1.core&quot;} {:command &quot;(def h (.getHistory (yahoofinance.YahooFinance/get \&quot;dax\&quot;)))&quot;, :offset 59, :ns &quot;clj-test1.core&quot;} {:command &quot;(def h (.getHistory (YahooFinance/get \&quot;dax\&quot;)))&quot;, :offset 46, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn prn-hist-quote [x] (.getClose x))&quot;, :offset 39, :ns &quot;clj-test1.core&quot;} {:command &quot;(for [x h] (println (prn-hist-quote x)))&quot;, :offset 40, :ns &quot;clj-test1.core&quot;} {:command &quot;(def price (.getPrice (.getQuote get-stock)))&quot;, :offset 45, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance histquotes quotes.stock)\n  (:import\n    (yahoofinance YahooFinance Stock)\n    (histquotes HistoricalQuote)\n    (quotes.stock StockQuote)))&quot;, :offset 182, :ns &quot;clj-test1.core&quot;} {:command &quot;(def price (.getPrice (.getQuote YahooFinance/get \&quot;dax\&quot;)))&quot;, :offset 58, :ns &quot;clj-test1.core&quot;} {:command &quot;(def price (.getPrice (.getQuote (YahooFinance/get \&quot;dax\&quot;))))&quot;, :offset 60, :ns &quot;clj-test1.core&quot;} {:command &quot;(println price)&quot;, :offset 15, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.montecarlo-simulation)&quot;, :offset 36, :ns &quot;clj-test1.core&quot;} {:command &quot;*ns*&quot;, :offset 4, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calculate-mean [coll] (not-empty? [coll] (/ (reduce + [coll]) (count [coll]))))&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn mean [coll]\n  (let [sum (apply + coll)\n        count (count coll)]\n    (if (pos? count)\n      (/ sum count)\n      0)))&quot;, :offset 124, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn median [coll]\n  (let [sorted (sort coll)\n        cnt (count sorted)\n        halfway (quot cnt 2)]\n    (if (odd? cnt)\n      (nth sorted halfway) ; (1)\n      (let [bottom (dec halfway)\n            bottom-val (nth sorted bottom)\n            top-val (nth sorted halfway)]\n        (mean [bottom-val top-val])))))&quot;, :offset 313, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn standard-deviation [coll]\n  (let [avg (mean coll)\n        squares (for [x coll]\n                  (let [x-avg (- x avg)]\n                    (* x-avg x-avg)))\n        total (count coll)]\n    (-&gt; (/ (apply + squares)\n           (- total 1))\n        (Math/sqrt))))&quot;, :offset 268, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-daily-volatility [coll] (standard-deviation [coll]))&quot;, :offset 63, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-annual-volatility [coll] (* (Math/sqrt 252) calc-daily-volatility [coll]))&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mean price] (* price (+ 1 (incanter.stats/quantile-normal prob mean calc-daily-volatility [coll]))))&quot;, :offset 127, :ns &quot;clj-test1.montecarlo-simulation&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1503751614283">{:repl-history {:ide [], :local [{:command &quot;&quot;, :offset 0} {:command &quot;(ns clj-test1.montecarlo-simulation)\n  &quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(yahoofinance.YahooFinance/get \&quot;dax\&quot;)\n                               &quot;, :offset 37, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def close (.getClose h))&quot;, :offset 25, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def close (.getClose (yahoofinance.YahooFinance/get \&quot;dax\&quot;)))&quot;, :offset 61, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def closePrices (for [x h] (cons (.getClose x) closePrices)))&quot;, :offset 62, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(closePrices)&quot;, :offset 13, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println count [closePrices])&quot;, :offset 29, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println (count [closePrices]))&quot;, :offset 31, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(ns clj-test1.montecarlo-simulation\n  (:require incanter.stats yahoofinance histquotes quotes.stock)\n  (:import (yahoofinance YahooFinance Stock)\n           (histquotes HistoricalQuote)\n           (quotes.stock StockQuote)))&quot;, :offset 224, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.5 0 0.5)&quot;, :offset 42, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mean price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob mean calc-daily-volatility [closePrices]))))&quot;, :offset 150, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-prices [startPrice] (\n                                     (calc-mcs-price rand 0 startPrice)))&quot;, :offset 110, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-prices price)&quot;, :offset 23, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob mn (calc-daily-volatility [closePrices])))))&quot;, :offset 148, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-daily-volatility [closePrices])&quot;, :offset 37, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob mn (calc-daily-volatility closePrices)))))&quot;, :offset 146, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;calc-daily-volatility closePrices&quot;, :offset 33, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(standard-deviation closePrices)&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println (count closePrices))&quot;, :offset 29, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def closePrices (for [x h] (conj (.getClose x) closePrices)))&quot;, :offset 62, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(ns clj-test1.core)\n  &quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(ns clj-test1.core :require [yahoofinance-api-develop :as yahoo])&quot;, :offset 65} {:command &quot;(YahooFinance/get \&quot;dax\&quot;)&quot;, :offset 24, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(yahoofinance.YahooFinance/get \&quot;dax\&quot;)&quot;, :offset 37, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn getStock [] (yahoofinance.YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 56, :ns &quot;clj-test1.core&quot;} {:command &quot;(getStock)&quot;, :offset 10, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn get-stock [] (yahoofinance.YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 57, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require '(yahoofinance [YahooFinance :as yahoo]))\n  (:require '(Stock [Stock :as stock]))\n            \n  (:import (yahoofinance YahooFinance)\n           (yahoofinance Stock)\n           (histquotes HistoricalQuote)))&quot;, :offset 238, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn getStock []\n  (yahoofinance.YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 58, :ns &quot;clj-test1.core&quot;} {:command &quot;getStock&quot;, :offset 8, :ns &quot;clj-test1.core&quot;} {:command &quot;(def history (.getHistory getStock))&quot;, :offset 36, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require '(yahoofinance [YahooFinance :as yahoo]))\n  (import 'yahoofinance.Stock))&quot;, :offset 104, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (import yahoofinance.YahooFinance)\n  (import yahoofinance.Stock))&quot;, :offset 86, :ns &quot;clj-test1.core&quot;} {:command &quot;get-stock&quot;, :offset 9, :ns &quot;clj-test1.core&quot;} {:command &quot;(def history (.getHistory get-stock))&quot;, :offset 37, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (import '(yahoofinance Stock YahooFinance)))&quot;, :offset 65, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (require 'yahoofinance)\n  (import '(yahoofinance Stock YahooFinance)))&quot;, :offset 91, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance)\n  (:import '(yahoofinance Stock YahooFinance)))&quot;, :offset 92, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import (yahoofinance YahooFinance)))&quot;, :offset 129, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require \n            yahoofinance.YahooFinance)\n  (:import (yahoofinance YahooFinance)))&quot;, :offset 111, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import (yahoofinance YahooFinance Stock)))&quot;, :offset 135, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance)\n            \n  (:import (yahoofinance YahooFinance Stock)))&quot;, :offset 104, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import '(yahoofinance YahooFinance Stock)))&quot;, :offset 136, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance.Stock\n            yahoofinance.YahooFinance)\n  (:import \n           (yahoofinance YahooFinance)\n           (yahoofinance Stock)))&quot;, :offset 173, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance)\n  (:import\n           (yahoofinance YahooFinance Stock)))&quot;, :offset 102, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn get-stock []\n  (YahooFinance/get \&quot;dax\&quot;))&quot;, :offset 46, :ns &quot;clj-test1.core&quot;} {:command &quot;(get-stock)&quot;, :offset 11, :ns &quot;clj-test1.core&quot;} {:command &quot;(def h (.getHistory get-stock))&quot;, :offset 31, :ns &quot;clj-test1.core&quot;} {:command &quot;(def h (.getHistory (YahooFinance/get \&quot;dax\&quot;)))&quot;, :offset 46, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn prn-hist-quote [x] (.getClose x))&quot;, :offset 39, :ns &quot;clj-test1.core&quot;} {:command &quot;(for [x h] (println (prn-hist-quote x)))&quot;, :offset 40, :ns &quot;clj-test1.core&quot;} {:command &quot;(def price (.getPrice (.getQuote get-stock)))&quot;, :offset 45, :ns &quot;clj-test1.core&quot;} {:command &quot;(ns clj-test1.core\n  (:require yahoofinance histquotes quotes.stock)\n  (:import\n    (yahoofinance YahooFinance Stock)\n    (histquotes HistoricalQuote)\n    (quotes.stock StockQuote)))&quot;, :offset 182, :ns &quot;clj-test1.core&quot;} {:command &quot;(def price (.getPrice (.getQuote YahooFinance/get \&quot;dax\&quot;)))&quot;, :offset 58, :ns &quot;clj-test1.core&quot;} {:command &quot;(def price (.getPrice (.getQuote (YahooFinance/get \&quot;dax\&quot;))))&quot;, :offset 60, :ns &quot;clj-test1.core&quot;} {:command &quot;(defn calculate-mean [coll] (not-empty? [coll] (/ (reduce + [coll]) (count [coll]))))&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn median [coll]\n  (let [sorted (sort coll)\n        cnt (count sorted)\n        halfway (quot cnt 2)]\n    (if (odd? cnt)\n      (nth sorted halfway) ; (1)\n      (let [bottom (dec halfway)\n            bottom-val (nth sorted bottom)\n            top-val (nth sorted halfway)]\n        (mean [bottom-val top-val])))))&quot;, :offset 313, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn standard-deviation [coll]\n  (let [avg (mean coll)\n        squares (for [x coll]\n                  (let [x-avg (- x avg)]\n                    (* x-avg x-avg)))\n        total (count coll)]\n    (-&gt; (/ (apply + squares)\n           (- total 1))\n        (Math/sqrt))))&quot;, :offset 268, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-daily-volatility [coll] (standard-deviation [coll]))&quot;, :offset 63, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-annual-volatility [coll] (* (Math/sqrt 252) calc-daily-volatility [coll]))&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mean price] (* price (+ 1 (incanter.stats/quantile-normal prob mean calc-daily-volatility [coll]))))&quot;, :offset 127, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;*ns*&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(ns clj-test1.montecarlo-simulation)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(def h (.getHistory (yahoofinance.YahooFinance/get \&quot;dax\&quot;)))&quot;, :offset 59, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get \&quot;dax\&quot;))))&quot;, :offset 73, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println price)&quot;, :offset 15, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def closePrices (for [x h] (conj closePrices (.getClose x))))&quot;, :offset 62, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn mean [coll]\n  (let [sum (apply + coll)\n        count (count coll)]\n    (if (pos? count)\n      (/ sum count)\n      0)))&quot;, :offset 124, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(mean closePrices)&quot;, :offset 18, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(count closePrices)&quot;, :offset 19, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + closePrices)&quot;, :offset 21, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + 'closePrices)&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + [1 2])&quot;, :offset 15, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println (closePrices))&quot;, :offset 23, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println closePrices)&quot;, :offset 21, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + '(closePrices))&quot;, :offset 24, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(vec 'closePrices)&quot;, :offset 18, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(vec closePrices)&quot;, :offset 17, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def closePricesSum ((for [x closePrices] (+ x closePricesSum))))&quot;, :offset 65, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + [closePrices])&quot;, :offset 23, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply map + [closePrices])&quot;, :offset 27, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(reduce + closePrices)&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def closePricesSum ((for [x closePrices] (+ (get closePrices (.indexOf x closePrices) closePricesSum)))))&quot;, :offset 106, :ns &quot;clj-test1.montecarlo-simulation&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,94 +337,32 @@
     </option>
   </component>
   <component name="RunManager" selected="Clojure REPL.REPL for clj-test1">
-    <configuration name="REPL for clj-test1" type="ClojureREPL" factoryName="Local" temporary="true">
+    <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clj-test1" />
+      <setting name="path" value="$PROJECT_DIR$/src/clj_test1/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clj_test1" />
+      <method />
+    </configuration>
+    <configuration default="false" name="REPL for clj-test1" type="ClojureREPL" factoryName="Local" temporary="true">
       <setting name="replType" value="1" />
       <module name="clj-test1" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -265,30 +387,6 @@
         <option name="GAPID_DISABLE_PCS" value="false" />
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -319,6 +417,29 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local">
@@ -355,6 +476,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -403,15 +545,41 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clj-test1" />
-      <setting name="path" value="$PROJECT_DIR$/src/clj_test1/core.clj" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/clj_test1" />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Clojure Application.core" />
@@ -422,6 +590,30 @@
         <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for clj-test1" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -434,27 +626,51 @@
       <option name="presentableId" value="Default" />
       <updated>1499886666184</updated>
     </task>
+    <task id="LOCAL-00001" summary="da li radi">
+      <created>1503449607770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503449607770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ne radi mean">
+      <created>1503529824469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503529824469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ne radi mean">
+      <created>1503530042479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503530042479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-11" y="-11" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15834768" sideWeight="0.14012252" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40853658" sideWeight="0.22322775" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2428356" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27375567" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28913045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32164633" sideWeight="0.77677226" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12473348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17873304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -462,10 +678,8 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10843374" sideWeight="0.85987747" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -515,6 +729,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="da li radi" />
+    <MESSAGE value="ne radi mean" />
+    <option name="LAST_COMMIT_MESSAGE" value="ne radi mean" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -524,7 +743,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yahoofinance-api-develop/src/main/java/yahoofinance/exchanges/ExchangeTimeZone.java" />
     <entry file="file://$PROJECT_DIR$/yahoofinance-api-develop/src/main/java/yahoofinance/Utils.java" />
     <entry file="file://$PROJECT_DIR$/yahoofinance-api-develop/src/main/java/yahoofinance/histquotes2/QueryInterval.java" />
     <entry file="file://D:/yahoofinance-api-develop/src/main/java/yahoofinance/quotes/stock/StockQuote.java" />
@@ -576,13 +794,6 @@
     <entry file="file://$PROJECT_DIR$/src/yahoofinance/yahoofinance/Utils.java" />
     <entry file="file://$PROJECT_DIR$/src/yahoofinance/histquotes/HistQuotesRequest.java" />
     <entry file="file://$PROJECT_DIR$/src/yahoofinance/yahoofinance/YahooFinance.java" />
-    <entry file="file://$PROJECT_DIR$/src/histquotes/HistoricalQuote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/histquotes/Interval.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -660,17 +871,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/yahoofinance/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="181" column="32" lean-forward="false" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/yahoofinance/YahooFinance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -678,6 +883,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quotes/stock/StockQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/histquotes/HistoricalQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yahoofinance/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="181" column="32" lean-forward="false" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#1756#1757#0" expanded="false" />
+            <element signature="e#1796#1797#0" expanded="false" />
+            <element signature="e#2026#2027#0" expanded="false" />
+            <element signature="e#2059#2060#0" expanded="false" />
+            <element signature="e#3144#3145#0" expanded="false" />
+            <element signature="e#3178#3179#0" expanded="false" />
+            <element signature="e#3394#3395#0" expanded="false" />
+            <element signature="e#3427#3428#0" expanded="false" />
+            <element signature="e#4492#4493#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
+            <element signature="e#4757#4758#0" expanded="false" />
+            <element signature="e#4793#4794#0" expanded="false" />
+            <element signature="e#5895#5896#0" expanded="false" />
+            <element signature="e#5935#5936#0" expanded="false" />
+            <element signature="e#10133#10134#0" expanded="false" />
+            <element signature="e#10171#10172#0" expanded="false" />
+            <element signature="e#10208#10209#0" expanded="false" />
+            <element signature="e#10237#10238#0" expanded="false" />
+            <element signature="e#10395#10396#0" expanded="false" />
+            <element signature="e#10422#10423#0" expanded="false" />
+            <element signature="e#10466#10467#0" expanded="false" />
+            <element signature="e#10498#10499#0" expanded="false" />
+            <element signature="e#10663#10664#0" expanded="false" />
+            <element signature="e#10694#10695#0" expanded="false" />
+            <element signature="e#10746#10747#0" expanded="false" />
+            <element signature="e#10786#10787#0" expanded="false" />
+            <element signature="e#10972#10973#0" expanded="false" />
+            <element signature="e#11008#11009#0" expanded="false" />
+            <element signature="e#11070#11071#0" expanded="false" />
+            <element signature="e#11120#11121#0" expanded="false" />
+            <element signature="e#11170#11171#0" expanded="false" />
+            <element signature="e#11235#11236#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="597">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -7,24 +7,67 @@
 
 ;;(def coll (.getClose (.getHistory (YahooFinance/get "dax"))))
 
-(def h (.getHistory (yahoofinance.YahooFinance/get "dax")))
-(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get "dax"))))
+(def h (.getHistory (yahoofinance.YahooFinance/get "MSFT")))
+(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
 (println price)
 
 (def closePrices (for [x h] (conj closePrices (.getClose x))))
-(println (count closePrices))
+(println closePrices)
 (count closePrices)
 ;;(defn calculate-mean [coll] (not-empty [coll] (/ (reduce + [coll]) (count [coll]))))
 
 ;;(def)
 ;;
-(mean closePrices)
+
+(def closePricesSum ((for [x closePrices] (+ (get closePrices (.indexOf x closePrices) closePricesSum)))))
+
+
 (defn mean [coll]
+;  (/ (sum)))
   (let [sum (apply + coll)
         count (count coll)]
     (if (pos? count)
       (/ sum count)
       0)))
+
+(mean closePrices)
+
+
+(def vecClosePrices (vec '(closePrices)))
+(println vecClosePrices)
+(apply + vecClosePrices)
+
+(def vecCP (vector))
+(count vecClosePrices)
+((for [x h] (conj vecCP (.getClose x))))
+
+(conj vecCP (for [x h] (.getClose x)))
+
+(vecCP)
+(count vecCP)
+
+(def vecCP1 (vector (conj (for [x h] (.getClose x)))))
+
+(conj (for [x h] (.getClose x)))
+
+(def moj-vektor (conj (for [x h] (.getClose x)))) ;;OVO RADI - VEKTOR IMA 13 ELEMENATA
+(count moj-vektor)
+
+(apply + moj-vektor) ;; OVO RADI - SABIRA SVIH 13 ELEMENATA
+(mean moj-vektor) ;; NE RADI
+
+
+
+
+
+(count vecCP1)
+
+(def vecTT [1 2 3])
+(for [x vecCP1] (println 1))
+
+
+
+
 
 (defn median [coll]
   (let [sorted (sort coll)
