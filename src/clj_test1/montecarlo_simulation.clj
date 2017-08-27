@@ -75,11 +75,9 @@
                                                               (inc iter)))
                                                        (standard-deviation norm)))
 
-(loop [iter 1 norm []] (if (< iter (count moj-vektor))
-                         (recur (inc iter)  (conj norm (- (/ (nth moj-vektor iter) (nth moj-vektor (- iter 1) ) 1))))
-                         (println norm)))
+(defn normalize-stddev [] (loop [iter 1 norm []] (if (< iter 13) (recur (inc iter)  (conj norm (- (/ (double (nth moj-vektor iter)) (double (nth moj-vektor (- iter 1) )) 1)))) (standard-deviation norm))))
 
-(nth moj-vektor (- 2 1))
+(nth moj-vektor (- 1 1))
 
 
 
@@ -99,8 +97,8 @@
 
 (defn calc-mcs-price [prob mn price]
   (* price (+ 1
-              (incanter.stats/quantile-normal prob mn (calc-daily-volatility moj-vektor)))))
-
+              (incanter.stats/quantile-normal prob mn (normalize-stddev)))))
+(calc-mcs-price 0.021362922108393856 0 start)
 
 (def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
 
