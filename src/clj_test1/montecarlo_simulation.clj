@@ -38,7 +38,7 @@
 
 (let [sum (apply + moj-vektor) count (count moj-vektor)] (if (pos? count) (/ (double sum) (double count)) 0));; RADI MEAN pogledaj with-precision u clojure.docs za zaokruzivanje
 
-
+(println moj-vektor)
 
 
 
@@ -67,6 +67,29 @@
 
 (standard-deviation moj-vektor)
 
+(defn calc-d-v-normalized [coll] (loop [iter 1 norm []] (if (< iter (count coll)) (recur (conj norm (nth coll iter)) (inc iter)) (standard-deviation norm))))
+
+(loop [iter 1 norm []] (if (< iter (count moj-vektor)) (recur
+                                                         (conj norm
+                                                                    (nth moj-vektor iter)
+                                                              (inc iter)))
+                                                       (standard-deviation norm)))
+
+(loop [iter 1 norm []] (if (< iter (count moj-vektor))
+                         (recur (inc iter)  (conj norm (- (/ (nth moj-vektor iter) (nth moj-vektor (- iter 1) ) 1))))
+                         (println norm)))
+
+(nth moj-vektor (- 2 1))
+
+
+
+
+
+
+
+
+
+(calc-d-v-normalized moj-vektor)
 
 (defn calc-daily-volatility [coll] (standard-deviation coll))
 (defn calc-annual-volatility [coll] (* (Math/sqrt 252) (calc-daily-volatility coll)))
@@ -89,3 +112,9 @@
       result-set)))
 
 (calc-mcs-prices start (rand))
+
+(defn check-what-happens [] (let [probab 0.021362922108393856] (println "***** res: "(calc-mcs-prices start probab) "***** prob: " probab)))
+
+(check-what-happens)
+
+(incanter.stats/quantile-normal 0.6 0 5.230451235351243)
