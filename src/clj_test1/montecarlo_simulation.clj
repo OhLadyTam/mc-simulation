@@ -79,24 +79,13 @@
               (incanter.stats/quantile-normal prob mn (calc-daily-volatility moj-vektor)))))
 
 
-;;ovo je komentar
-(defn calc-mcs-prices [startPrice] (calc-mcs-price (rand) 0 startPrice))
-
-
 (def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
 
-println start
+(defn calc-mcs-prices
+  [price prob]
+  (loop [i 0 result-set [(calc-mcs-price prob 0 price)]]
+    (if (< i 21)
+      (recur (inc i) (conj result-set (calc-mcs-price prob 0 (last result-set))))
+      result-set)))
 
-(calc-mcs-price (rand) 0 start) ;; SVE RADI
-
-(calc-mcs-prices start)
-(rand)
-
-(defn simulate [startPrice] (conj (vector (calc-mcs-price (rand) 0 start)) 5))
-(conj (vector (calc-mcs-price (rand) 0 start)) ())
-
-(defn simulate1 [startPrice] (let [prob (rand) prices (vector (calc-mcs-price prob 0 startPrice))]
-                              (conj prices (calc-mcs-price prob 0 (last prices)))))
-
-(let [prob (rand) prices (vector (calc-mcs-price prob 0 start))]
-  (conj prices (calc-mcs-price prob 0 (last prices))))
+(calc-mcs-prices start (rand))
