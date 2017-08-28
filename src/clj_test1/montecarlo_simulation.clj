@@ -75,17 +75,27 @@
                                                               (inc iter)))
                                                        (standard-deviation norm)))
 
-(defn normalize-stddev [] (loop [iter 1 norm []] (if (< iter 13) (recur (inc iter)  (conj norm (- (/ (double (nth moj-vektor iter)) (double (nth moj-vektor (- iter 1) )) 1)))) (standard-deviation norm))))
+(defn normalize-stddev []
+  (loop [iter 1 norm []]
+    (if (< iter (count moj-vektor))
+      (recur
+        (inc iter)
+        (conj norm (-
+                     (/
+                       (double (nth moj-vektor iter))
+                       (double (nth moj-vektor (- iter 1) ))) 1)))
+      norm)))
 
-(nth moj-vektor (- 1 1))
 
 
 
+(normalize-stddev)
 
+(standard-deviation (normalize-stddev))
 
+(println (* start (+ 1 (incanter.stats/quantile-normal (rand) 0 0.027803987908925794))))
 
-
-
+(println n)
 
 (calc-d-v-normalized moj-vektor)
 
@@ -97,9 +107,10 @@
 
 (defn calc-mcs-price [prob mn price]
   (* price (+ 1
-              (incanter.stats/quantile-normal prob mn (normalize-stddev)))))
-(calc-mcs-price 0.021362922108393856 0 start)
+              (incanter.stats/quantile-normal prob mn final-stddev))))
 
+(calc-mcs-price 0.06247054154590104 0 start)
+(println n)
 (def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
 
 (defn calc-mcs-prices
@@ -111,8 +122,50 @@
 
 (calc-mcs-prices start (rand))
 
-(defn check-what-happens [] (let [probab 0.021362922108393856] (println "***** res: "(calc-mcs-prices start probab) "***** prob: " probab)))
+(defn check-what-happens [] (let [probab (rand)]  (println "***** res: "(calc-mcs-prices start probab) "***** prob: " probab)))
 
 (check-what-happens)
 
 (incanter.stats/quantile-normal 0.6 0 5.230451235351243)
+
+(def my-stddev
+  (loop [i 1 sum []]
+    (if (< i 12)
+      (recur (inc i) (conj sum (- (/ (double (nth moj-vektor i)) (double (nth moj-vektor (- i 1)))) 1)))
+      sum)))
+
+(println my-stddev)
+
+(def my-stddev1 (loop [i 0 sum] (if (< i (count my-stddev)) (recur (inc i) (apply + sum (* (double (nth my-stddev i)) (double (nth my-stddev i))))) sum)))
+
+(def std
+  (loop [i 0 total [0]]
+    (if (< i (count my-stddev))
+      (recur (inc i)
+             (conj total (+ (last total) (* (- (double (nth my-stddev i)) (mean my-stddev)) (- (double (nth my-stddev i)) (mean my-stddev) ) )))) total)))
+
+(println std)
+(println squaredDiffMean)
+(def reduced-std (reduce + std))
+
+(def squaredDiffMean (/ reduced-std (count my-stddev)))
+
+(def final-stddev (Math/sqrt squaredDiffMean))
+
+(println final-stddev)
+
+
+(defn calc-mcs-price [prob mn price]
+  (* price (+ 1
+              (incanter.stats/quantile-normal prob :mean mn :sd final-stddev))))
+
+(+ (incanter.stats/quantile-normal 0.012168178011722763  :mean 0 :sd final-stddev) 1)
+
+(* price (+ (incanter.stats/quantile-normal 0.012168178011722763 :mean 0 :sd final-stddev) 1))
+(calc-mcs-price 0.012168178011722763 0 price)
+
+(defn check-what-goes-on [] (let [prob (rand)] (println "************* result: " (calc-mcs-price prob 0 price) " *** prob " prob " *** price " price)))
+
+(check-what-goes-on)
+
+(calc-mcs-price (rand) 0 price)
