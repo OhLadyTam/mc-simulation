@@ -107,9 +107,9 @@
 
 (defn calc-mcs-price [prob mn price]
   (* price (+ 1
-              (incanter.stats/quantile-normal prob mn final-stddev))))
+              (incanter.stats/quantile-normal prob :mean mn :sd (standard-deviation (normalize-stddev))))))
 
-(calc-mcs-price 0.06247054154590104 0 start)
+(calc-mcs-price (rand) 0 start)
 (println n)
 (def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
 
