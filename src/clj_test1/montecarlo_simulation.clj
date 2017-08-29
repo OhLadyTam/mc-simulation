@@ -17,9 +17,20 @@
       (/ (double sum) (double count))
       0)))
 
-(def moj-vektor (conj (for [x h] (.getClose x)))) ;;OVO RADI - VEKTOR IMA 13 ELEMENATA
-(count moj-vektor)
+(defn get-close-price [x] (double (.getClose x)))
 
+(defn get-historical-closes [f history]
+  (let [historical-close (partition (count history)
+                           (apply interleave history))]
+    (reduce (fn [s coll] (conj s (apply f coll))) [] historical-close)))
+
+
+(get-historical-closes get-close-price (vector (.getHistory (yahoofinance.YahooFinance/get "MSFT"))))
+
+(defn build-historical-closes-vector [] ( (reduce conj [] h)))
+(build-historical-closes-vector)
+
+(println moj-vek)
 (apply + moj-vektor) ;; OVO RADI - SABIRA SVIH 13 ELEMENATA
 
 (defn standard-deviation [coll]
