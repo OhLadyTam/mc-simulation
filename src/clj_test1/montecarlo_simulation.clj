@@ -30,9 +30,6 @@
 (defn build-historical-closes-vector [] ( (reduce conj [] h)))
 (build-historical-closes-vector)
 
-(println moj-vek)
-(apply + moj-vektor) ;; OVO RADI - SABIRA SVIH 13 ELEMENATA
-
 (defn standard-deviation [coll]
   (let [avg (mean coll)
         squares (for [x coll]
