@@ -81,7 +81,7 @@ public class HistQuotesRequest {
         List<HistoricalQuote> result = new ArrayList<HistoricalQuote>();
         
         if(this.from.after(this.to)) {
-            YahooFinance.logger.log(Level.WARNING, "Unable to retrieve historical quotes. "
+            YahooFinance.logger.log(Level.WARNING, "Unable to retrieve historical lib.quotes. "
                     + "From-date should not be after to-date. From: "
                     + this.from.getTime() + ", to: " + this.to.getTime());
             return result;

@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eafa2f-3595-45ee-8db2-8d028a564cd6" name="Default" comment="">
+    <list default="true" id="25eafa2f-3595-45ee-8db2-8d028a564cd6" name="Default" comment="exchanges closed">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clj-test1.iml" afterPath="$PROJECT_DIR$/clj-test1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj" afterPath="$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/exchanges/ExchangeTimeZone.java" afterPath="$PROJECT_DIR$/src/lib/exchanges/ExchangeTimeZone.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/histquotes/HistQuotesRequest.java" afterPath="$PROJECT_DIR$/src/lib/histquotes/HistQuotesRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/histquotes/HistoricalQuote.java" afterPath="$PROJECT_DIR$/src/lib/histquotes/HistoricalQuote.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/histquotes/Interval.java" afterPath="$PROJECT_DIR$/src/lib/histquotes/Interval.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/histquotes2/CrumbManager.java" afterPath="$PROJECT_DIR$/src/lib/histquotes2/CrumbManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/histquotes2/HistQuotes2Request.java" afterPath="$PROJECT_DIR$/src/lib/histquotes2/HistQuotes2Request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/histquotes2/IntervalMapper.java" afterPath="$PROJECT_DIR$/src/lib/histquotes2/IntervalMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/histquotes2/QueryInterval.java" afterPath="$PROJECT_DIR$/src/lib/histquotes2/QueryInterval.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/QuotesProperty.java" afterPath="$PROJECT_DIR$/src/lib/quotes/QuotesProperty.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/QuotesRequest.java" afterPath="$PROJECT_DIR$/src/lib/quotes/QuotesRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/fx/FxQuote.java" afterPath="$PROJECT_DIR$/src/lib/quotes/fx/FxQuote.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/fx/FxQuotesRequest.java" afterPath="$PROJECT_DIR$/src/lib/quotes/fx/FxQuotesRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/fx/FxSymbols.java" afterPath="$PROJECT_DIR$/src/lib/quotes/fx/FxSymbols.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/stock/StockDividend.java" afterPath="$PROJECT_DIR$/src/lib/quotes/stock/StockDividend.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/stock/StockQuote.java" afterPath="$PROJECT_DIR$/src/lib/quotes/stock/StockQuote.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/stock/StockQuotesData.java" afterPath="$PROJECT_DIR$/src/lib/quotes/stock/StockQuotesData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/stock/StockQuotesRequest.java" afterPath="$PROJECT_DIR$/src/lib/quotes/stock/StockQuotesRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/quotes/stock/StockStats.java" afterPath="$PROJECT_DIR$/src/lib/quotes/stock/StockStats.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/util/RedirectableRequest.java" afterPath="$PROJECT_DIR$/src/lib/util/RedirectableRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/yahoofinance/Stock.java" afterPath="$PROJECT_DIR$/src/lib/yahoofinance/Stock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/yahoofinance/Utils.java" afterPath="$PROJECT_DIR$/src/lib/yahoofinance/Utils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/yahoofinance/YahooFinance.java" afterPath="$PROJECT_DIR$/src/lib/yahoofinance/YahooFinance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/yahoofinance/util/RedirectableRequest.java" afterPath="$PROJECT_DIR$/test/lib/yahoofinance/util/RedirectableRequest.java" />
     </list>
     <ignored path="clj-test1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clj_test1/core.clj">
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -37,8 +63,8 @@
       <file leaf-file-name="montecarlo_simulation.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="72" column="24" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/yahoofinance-api-develop/src/main/java/yahoofinance/histquotes2/HistQuotes2Request.java" />
-        <option value="D:/yahoofinance-api-develop/src/main/java/yahoofinance/YahooFinance.java" />
         <option value="$PROJECT_DIR$/src/yahoofinance/quotes/stock/StockQuote.java" />
         <option value="$PROJECT_DIR$/src/yahoofinance/quotes/stock/StockDividend.java" />
         <option value="$PROJECT_DIR$/src/yahoofinance/exchanges/ExchangeTimeZone.java" />
@@ -98,8 +122,31 @@
         <option value="$PROJECT_DIR$/src/histquotes2/HistQuotes2Request.java" />
         <option value="$PROJECT_DIR$/src/yahoofinance/YahooFinance.java" />
         <option value="$PROJECT_DIR$/src/yahoofinance/Stock.java" />
-        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/clj_test1/core.clj" />
+        <option value="$PROJECT_DIR$/src/lib/yahoofinance/Stock.java" />
+        <option value="$PROJECT_DIR$/src/lib/histquotes/HistoricalQuote.java" />
+        <option value="$PROJECT_DIR$/src/lib/histquotes/HistQuotesRequest.java" />
+        <option value="$PROJECT_DIR$/src/lib/histquotes/Interval.java" />
+        <option value="$PROJECT_DIR$/src/lib/histquotes2/CrumbManager.java" />
+        <option value="$PROJECT_DIR$/src/lib/histquotes2/HistQuotes2Request.java" />
+        <option value="$PROJECT_DIR$/src/lib/histquotes2/IntervalMapper.java" />
+        <option value="$PROJECT_DIR$/src/lib/histquotes2/QueryInterval.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/fx/FxQuote.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/fx/FxQuotesRequest.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/fx/FxSymbols.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/stock/StockDividend.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/stock/StockQuote.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/stock/StockQuotesData.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/stock/StockQuotesRequest.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/QuotesProperty.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/QuotesRequest.java" />
+        <option value="$PROJECT_DIR$/src/lib/util/RedirectableRequest.java" />
+        <option value="$PROJECT_DIR$/src/lib/yahoofinance/Utils.java" />
+        <option value="$PROJECT_DIR$/src/lib/yahoofinance/YahooFinance.java" />
+        <option value="$PROJECT_DIR$/src/lib/quotes/stock/StockStats.java" />
+        <option value="$PROJECT_DIR$/src/lib/exchanges/ExchangeTimeZone.java" />
+        <option value="$PROJECT_DIR$/test/lib/yahoofinance/util/RedirectableRequest.java" />
+        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj" />
       </list>
     </option>
@@ -139,6 +186,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="histquotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj-testovi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj_test1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -149,9 +254,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/yahoofinance" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/lib" />
     <property name="cursive.last.file.extension.D\:/clj-testovi/src" value="clj" />
   </component>
   <component name="RecentsManager">
@@ -162,7 +267,7 @@
       <recent name="D:\clj-testovi" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1504115829886">{:repl-history {:ide [], :local [{:command &quot;(def my-stddev1 (loop [i 0 sum] (if (&lt; i (count my-stddev) (recur (inc i) (apply + sum (* (double (nth my-stddev i)) (double (nth my-stddev i))))) sum))))&quot;, :offset 154, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def my-stddev1 (loop [i 0 sum []] (if (&lt; i (count my-stddev) (recur (inc i) (apply + sum (* (double (nth my-stddev i)) (double (nth my-stddev i))))) sum))))&quot;, :offset 157, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def my-stddev1 (loop [i 0 sum []] (if (&lt; i (count my-stddev)) (recur (inc i) (apply + sum (* (double (nth my-stddev i)) (double (nth my-stddev i))))) sum)))&quot;, :offset 157, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def my-stddev1 (loop [i 0 sum  (if (&lt; i (count my-stddev)) (recur (inc i) (apply + sum (* (double (nth my-stddev i)) (double (nth my-stddev i))))) sum)]))&quot;, :offset 155, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def my-stddev1 (loop [i 0 sum ] (if (&lt; i (count my-stddev)) (recur (inc i) (apply + sum (* (double (nth my-stddev i)) (double (nth my-stddev i))))) sum)))&quot;, :offset 155, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def my-stddev1 (loop [i 0 sum] (if (&lt; i (count my-stddev)) (recur (inc i) (apply + sum (* (double (nth my-stddev i)) (double (nth my-stddev i))))) sum)))&quot;, :offset 154, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 s 0]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (apply = s (apply + s (* (double (nth my-stddev i)) (double (nth my-stddev i)))))) s)))&quot;, :offset 180, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 total []]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (apply + (last total) (* (double (nth my-stddev i)) (double (nth my-stddev i)))))) total)))&quot;, :offset 201, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(loop [i 0 total []]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (apply + (last total) (* (double (nth my-stddev i)) (double (nth my-stddev i)))))) total))&quot;, :offset 189, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(conj total (apply + (last total) (* (double (nth my-stddev i)) (double (nth my-stddev i)))))&quot;, :offset 93, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(conj total (apply + 1 2 3))&quot;, :offset 28, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(conj (apply + 1 2 3))&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + 1 2 3)&quot;, :offset 15, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + [1 2 3])&quot;, :offset 17, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 total []]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (+ (last total) (* (double (nth my-stddev i)) (double (nth my-stddev i)))))) total)))&quot;, :offset 195, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 total [0]]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (+ (last total) (* (double (nth my-stddev i)) (double (nth my-stddev i)))))) total)))&quot;, :offset 196, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(std)&quot;, :offset 5, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(reduce + std)&quot;, :offset 14, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def squaredDiffMean (/ std (count my-stddev)))&quot;, :offset 47, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println squaredDiffMean)&quot;, :offset 25, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 total [0]]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (+ (last total) (* (- (double (nth my-stddev i)) (mean my-stddev)) (- (double (nth my-stddev i)) (mean my-stddev) ) )))) total)))&quot;, :offset 240, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println std)&quot;, :offset 13, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def reduced-std (reduce + std))&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def squaredDiffMean (/ reduced-std (count my-stddev)))&quot;, :offset 55, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def final-stddev (Math/sqrt squaredDiffMean))&quot;, :offset 46, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob mn final-stddev))))&quot;, :offset 123, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn check-what-goes-on [] (let [prob (rand)] (println \&quot;************* result: \&quot; (calc-mcs-price (rand) 0 price) \&quot; *** prob \&quot; prob \&quot; *** price \&quot; price)))&quot;, :offset 153, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.8389188305795278 0 price)&quot;, :offset 43, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.8287117735140029 0 price)&quot;, :offset 43, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn check-what-goes-on [] (let [prob (rand)] (println \&quot;************* result: \&quot; (calc-mcs-price prob 0 price) \&quot; *** prob \&quot; prob \&quot; *** price \&quot; price)))&quot;, :offset 151, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(check-what-goes-on)&quot;, :offset 20, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  0 final-stddev)&quot;, :offset 69, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  :mean :sd final-stddev)&quot;, :offset 77, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  :mean 0 :sd 1)&quot;, :offset 68, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println final-stddev)&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  :mean 0 :sd final-stddev)&quot;, :offset 79, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(+ 1\n              (incanter.stats/quantile-normal prob mn final-stddev))&quot;, :offset 73, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;price&quot;, :offset 5, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(* price (+ (incanter.stats/quantile-normal 0.012168178011722763 0 final-stddev) 1))&quot;, :offset 84, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(+ (incanter.stats/quantile-normal 0.012168178011722763 0 final-stddev) 1)&quot;, :offset 74, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763 0 final-stddev) &quot;, :offset 69, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(+ (incanter.stats/quantile-normal 0.012168178011722763  :mean 0 :sd final-stddev) 1)&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(* price (+ (incanter.stats/quantile-normal 0.012168178011722763 :mean 0 :sd final-stddev) 1))&quot;, :offset 94, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob :mean mn :sd final-stddev))))&quot;, :offset 133, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.012168178011722763 0 price)&quot;, :offset 45, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price (rand) 0 price)&quot;, :offset 31, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-d-v-normalized moj-vektor)&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(normalize-stddev)&quot;, :offset 18, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.06247054154590104 0 start)&quot;, :offset 44, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price (rand) 0 start)&quot;, :offset 31, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(ns clj-test1.montecarlo-simulation)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(ns clj-test1.montecarlo-simulation\n  (:require incanter.stats yahoofinance histquotes quotes.stock)\n  (:import (yahoofinance YahooFinance Stock)\n           (histquotes HistoricalQuote)\n           (quotes.stock StockQuote)\n           (incanter.stats incanter.stats)))&quot;, :offset 267, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def h (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 60, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;))))&quot;, :offset 74, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn mean [coll]\n  (let [sum (apply + coll)\n        count (count coll)]\n    (if (pos? count)\n      (/ (double sum) (double count))\n      0)))&quot;, :offset 142, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(count moj-vektor)&quot;, :offset 18, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn standard-deviation [coll]\n  (let [avg (mean coll)\n        squares (for [x coll]\n                  (let [x-avg (- x avg)]\n                    (* x-avg x-avg)))\n        total (count coll)]\n    (-&gt; (/ (apply + squares)\n           (- total 1))\n        (Math/sqrt))))&quot;, :offset 268, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn normalize-stddev []\n  (loop [iter 1 norm []]\n    (if (&lt; iter (count moj-vektor))\n      (recur\n        (inc iter)\n        (conj norm (-\n                     (/\n                       (double (nth moj-vektor iter))\n                       (double (nth moj-vektor (- iter 1) ))) 1)))\n      norm)))&quot;, :offset 299, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(standard-deviation (normalize-stddev))&quot;, :offset 39, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-daily-volatility [coll] (standard-deviation coll))&quot;, :offset 61, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob :mean mn :sd (standard-deviation (normalize-stddev))))))&quot;, :offset 160, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;))))&quot;, :offset 74, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn normalize-stddev [coll]\n  (loop [iter 1 norm []]\n    (if (&lt; iter (count coll))\n      (recur\n        (inc iter)\n        (conj norm (-\n                     (/\n                       (double (nth coll iter))\n                       (double (nth coll (- iter 1) ))) 1)))\n      norm)))&quot;, :offset 285, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn normalize-stddev [coll]\n  (loop [iter 1 norm []]\n    (if (&lt; iter (count coll))\n      (recur\n        (inc iter)\n        (conj norm (-\n                     (/\n                       (double (nth coll iter))\n                       (double (nth coll (- iter 1) ))) 1)))\n      (standard-deviation norm))))&quot;, :offset 306, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(normalize-stddev moj-vektor)&quot;, :offset 29, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(standard-deviation moj-vektor)&quot;, :offset 31, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-daily-volatility [coll] (normalize-stddev coll))&quot;, :offset 59, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-annual-volatility [coll] (* (Math/sqrt 252) (calc-daily-volatility coll)))&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-daily-volatility moj-vektor)&quot;, :offset 34, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-annual-volatility moj-vektor)&quot;, :offset 35, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob :mean mn :sd (calc-daily-volatility moj-vektor)))))&quot;, :offset 155, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-prices\n  [price prob]\n  (loop [i 0 result-set [(calc-mcs-price prob 0 price)]]\n    (if (&lt; i 21)\n      (recur (inc i) (conj result-set (calc-mcs-price prob 0 (last result-set))))\n      result-set)))&quot;, :offset 212, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-prices start (rand))&quot;, :offset 30, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println (* price (+ 1 (incanter.stats/quantile-normal (rand) :mean 0 :sd (normalize-stddev moj-vektor)))))&quot;, :offset 107, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def moj-vek (conj h))&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println moj-vek)&quot;, :offset 17, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def moj-vek (conj (.getClose h)))&quot;, :offset 34, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-closes-vector [] (reduce conj [] (range 10)))&quot;, :offset 68, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println build-historical-closes-vector)&quot;, :offset 40, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-closes-vector [] (reduce conj [] h))&quot;, :offset 59, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-closes-vector [] (.getClose (reduce conj [] h)))&quot;, :offset 71, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(build-historical-closes-vector)&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn get-close-price [x] (.getClose x))&quot;, :offset 40, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(partition-by get-close-price h)&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println vek)&quot;, :offset 13, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn get-close-price [x] (double (.getClose x)))&quot;, :offset 49, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def vek (partition-by get-close-price h))&quot;, :offset 42, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(vector vek)&quot;, :offset 12, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println (vector vek))&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(mean vek)&quot;, :offset 10, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(reduce (fn [s k] (conj s (apply get-close-price k))) [])&quot;, :offset 57, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn remap [f &amp; c]\n  (let [neues-c (partition (count c)\n                           (apply interleave c))]\n    (reduce (fn [s k] (conj s (apply f k))) [] neues-c)))&quot;, :offset 164, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def moj-vektor (conj (for [x h] (.getClose x))))&quot;, :offset 49, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println moj-vektor)&quot;, :offset 20, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn get-historical-closes [f history]\n  (let [historical-close (partition (count history)\n                           (apply interleave history))]\n    (reduce (fn [s coll] (conj s (apply f coll))) [] historical-close)))&quot;, :offset 220, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(remap get-close-price h)&quot;, :offset 25, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(remap get-close-price (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 76, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(get-close-price (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 70, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(get-historical-closes get-close-price (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 92, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(get-historical-closes get-close-price (vector (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;))))&quot;, :offset 101, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(reduce (fn [historical-closes [k v]]\n          (into historical-closes [k (apply get-close-price v)]))\n        [] ;first value for p\n        (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 195, :ns &quot;clj-test1.montecarlo-simulation&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1504128830894">{:repl-history {:ide [], :local [{:command &quot;(conj total (apply + 1 2 3))&quot;, :offset 28, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(conj (apply + 1 2 3))&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + 1 2 3)&quot;, :offset 15, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(apply + [1 2 3])&quot;, :offset 17, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 total []]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (+ (last total) (* (double (nth my-stddev i)) (double (nth my-stddev i)))))) total)))&quot;, :offset 195, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 total [0]]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (+ (last total) (* (double (nth my-stddev i)) (double (nth my-stddev i)))))) total)))&quot;, :offset 196, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(std)&quot;, :offset 5, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(reduce + std)&quot;, :offset 14, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def squaredDiffMean (/ std (count my-stddev)))&quot;, :offset 47, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println squaredDiffMean)&quot;, :offset 25, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def std\n  (loop [i 0 total [0]]\n    (if (&lt; i (count my-stddev))\n      (recur (inc i)\n             (conj total (+ (last total) (* (- (double (nth my-stddev i)) (mean my-stddev)) (- (double (nth my-stddev i)) (mean my-stddev) ) )))) total)))&quot;, :offset 240, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println std)&quot;, :offset 13, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def reduced-std (reduce + std))&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def squaredDiffMean (/ reduced-std (count my-stddev)))&quot;, :offset 55, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def final-stddev (Math/sqrt squaredDiffMean))&quot;, :offset 46, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob mn final-stddev))))&quot;, :offset 123, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn check-what-goes-on [] (let [prob (rand)] (println \&quot;************* result: \&quot; (calc-mcs-price (rand) 0 price) \&quot; *** prob \&quot; prob \&quot; *** price \&quot; price)))&quot;, :offset 153, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.8389188305795278 0 price)&quot;, :offset 43, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.8287117735140029 0 price)&quot;, :offset 43, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn check-what-goes-on [] (let [prob (rand)] (println \&quot;************* result: \&quot; (calc-mcs-price prob 0 price) \&quot; *** prob \&quot; prob \&quot; *** price \&quot; price)))&quot;, :offset 151, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(check-what-goes-on)&quot;, :offset 20, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  0 final-stddev)&quot;, :offset 69, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  :mean :sd final-stddev)&quot;, :offset 77, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  :mean 0 :sd 1)&quot;, :offset 68, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println final-stddev)&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763  :mean 0 :sd final-stddev)&quot;, :offset 79, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(+ 1\n              (incanter.stats/quantile-normal prob mn final-stddev))&quot;, :offset 73, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;price&quot;, :offset 5, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(* price (+ (incanter.stats/quantile-normal 0.012168178011722763 0 final-stddev) 1))&quot;, :offset 84, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(+ (incanter.stats/quantile-normal 0.012168178011722763 0 final-stddev) 1)&quot;, :offset 74, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(incanter.stats/quantile-normal 0.012168178011722763 0 final-stddev) &quot;, :offset 69, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(+ (incanter.stats/quantile-normal 0.012168178011722763  :mean 0 :sd final-stddev) 1)&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(* price (+ (incanter.stats/quantile-normal 0.012168178011722763 :mean 0 :sd final-stddev) 1))&quot;, :offset 94, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob :mean mn :sd final-stddev))))&quot;, :offset 133, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.012168178011722763 0 price)&quot;, :offset 45, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price (rand) 0 price)&quot;, :offset 31, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-d-v-normalized moj-vektor)&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(normalize-stddev)&quot;, :offset 18, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price 0.06247054154590104 0 start)&quot;, :offset 44, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-price (rand) 0 start)&quot;, :offset 31, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def h (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 60, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;))))&quot;, :offset 74, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(count moj-vektor)&quot;, :offset 18, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn normalize-stddev []\n  (loop [iter 1 norm []]\n    (if (&lt; iter (count moj-vektor))\n      (recur\n        (inc iter)\n        (conj norm (-\n                     (/\n                       (double (nth moj-vektor iter))\n                       (double (nth moj-vektor (- iter 1) ))) 1)))\n      norm)))&quot;, :offset 299, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(standard-deviation (normalize-stddev))&quot;, :offset 39, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-daily-volatility [coll] (standard-deviation coll))&quot;, :offset 61, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob :mean mn :sd (standard-deviation (normalize-stddev))))))&quot;, :offset 160, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;))))&quot;, :offset 74, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn normalize-stddev [coll]\n  (loop [iter 1 norm []]\n    (if (&lt; iter (count coll))\n      (recur\n        (inc iter)\n        (conj norm (-\n                     (/\n                       (double (nth coll iter))\n                       (double (nth coll (- iter 1) ))) 1)))\n      norm)))&quot;, :offset 285, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(normalize-stddev moj-vektor)&quot;, :offset 29, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(standard-deviation moj-vektor)&quot;, :offset 31, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-daily-volatility moj-vektor)&quot;, :offset 34, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-annual-volatility moj-vektor)&quot;, :offset 35, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob :mean mn :sd (calc-daily-volatility moj-vektor)))))&quot;, :offset 155, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-prices\n  [price prob]\n  (loop [i 0 result-set [(calc-mcs-price prob 0 price)]]\n    (if (&lt; i 21)\n      (recur (inc i) (conj result-set (calc-mcs-price prob 0 (last result-set))))\n      result-set)))&quot;, :offset 212, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(calc-mcs-prices start (rand))&quot;, :offset 30, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println (* price (+ 1 (incanter.stats/quantile-normal (rand) :mean 0 :sd (normalize-stddev moj-vektor)))))&quot;, :offset 107, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def moj-vek (conj h))&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println moj-vek)&quot;, :offset 17, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def moj-vek (conj (.getClose h)))&quot;, :offset 34, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-closes-vector [] (reduce conj [] (range 10)))&quot;, :offset 68, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println build-historical-closes-vector)&quot;, :offset 40, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-closes-vector [] (reduce conj [] h))&quot;, :offset 59, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-closes-vector [] (.getClose (reduce conj [] h)))&quot;, :offset 71, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(build-historical-closes-vector)&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn get-close-price [x] (.getClose x))&quot;, :offset 40, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(partition-by get-close-price h)&quot;, :offset 32, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println vek)&quot;, :offset 13, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def vek (partition-by get-close-price h))&quot;, :offset 42, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(vector vek)&quot;, :offset 12, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println (vector vek))&quot;, :offset 22, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(mean vek)&quot;, :offset 10, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(reduce (fn [s k] (conj s (apply get-close-price k))) [])&quot;, :offset 57, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn remap [f &amp; c]\n  (let [neues-c (partition (count c)\n                           (apply interleave c))]\n    (reduce (fn [s k] (conj s (apply f k))) [] neues-c)))&quot;, :offset 164, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def moj-vektor (conj (for [x h] (.getClose x))))&quot;, :offset 49, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(println moj-vektor)&quot;, :offset 20, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(remap get-close-price h)&quot;, :offset 25, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(remap get-close-price (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 76, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(get-close-price (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 70, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(get-historical-closes get-close-price (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 92, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(reduce (fn [historical-closes [k v]]\n          (into historical-closes [k (apply get-close-price v)]))\n        [] ;first value for p\n        (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))&quot;, :offset 195, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(ns clj-test1.montecarlo-simulation)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(get-historical-closes get-close-price (vector (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;))))&quot;, :offset 101, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-close-vector [] (get-historical-closes get-close-price (vector (.getHistory (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;)))))&quot;, :offset 141, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(build-historical-close-vector \&quot;MSFT\&quot;)&quot;, :offset 38, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(def start-price (.getPrice (.getQuote (yahoofinance.YahooFinance/get \&quot;MSFT\&quot;))))&quot;, :offset 80, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(get-start-price \&quot;MSFT\&quot;)&quot;, :offset 24, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(ns clj-test1.montecarlo-simulation\n  (:require incanter.stats yahoofinance histquotes quotes.stock)\n  (:import (yahoofinance YahooFinance Stock)\n           (histquotes HistoricalQuote)\n           (quotes.stock StockQuote)\n           (incanter.stats incanter.stats)))&quot;, :offset 267, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn mean [coll]\n  (let [sum (apply + coll)\n        count (count coll)]\n    (if (pos? count)\n      (/ (double sum) (double count))\n      0)))&quot;, :offset 142, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn get-close-price [x] (double (.getClose x)))&quot;, :offset 49, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn get-historical-closes [f history]\n  (let [historical-close (partition (count history)\n                           (apply interleave history))]\n    (reduce (fn [s coll] (conj s (apply f coll))) [] historical-close)))&quot;, :offset 220, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn build-historical-close-vector [ticker] (get-historical-closes get-close-price (vector (.getHistory (yahoofinance.YahooFinance/get ticker)))))&quot;, :offset 147, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn standard-deviation [coll]\n  (let [avg (mean coll)\n        squares (for [x coll]\n                  (let [x-avg (- x avg)]\n                    (* x-avg x-avg)))\n        total (count coll)]\n    (-&gt; (/ (apply + squares)\n           (- total 1))\n        (Math/sqrt))))&quot;, :offset 268, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn normalize-stddev [coll]\n  (loop [iter 1 norm []]\n    (if (&lt; iter (count coll))\n      (recur\n        (inc iter)\n        (conj norm (-\n                     (/\n                       (double (nth coll iter))\n                       (double (nth coll (- iter 1) ))) 1)))\n      (standard-deviation norm))))&quot;, :offset 306, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-daily-volatility [coll] (normalize-stddev coll))&quot;, :offset 59, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-annual-volatility [coll] (* (Math/sqrt 252) (calc-daily-volatility coll)))&quot;, :offset 85, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-price [prob mn price histCloses]\n  (* price (+ 1\n              (incanter.stats/quantile-normal prob :mean mn :sd (calc-daily-volatility histCloses)))))&quot;, :offset 166, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn get-start-price [ticker] (.getPrice (.getQuote (yahoofinance.YahooFinance/get ticker))))&quot;, :offset 94, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn calc-mcs-prices\n  [price prob histCloses]\n  (loop [i 0 result-set [(calc-mcs-price prob 0 price histCloses)]]\n    (if (&lt; i 21)\n      (recur (inc i) (conj result-set (calc-mcs-price prob 0 (last result-set) histCloses)))\n      result-set)))&quot;, :offset 245, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(defn start-simulation [ticker] ()\n                   (let [start-price (get-start-price ticker) history (build-historical-close-vector ticker)]\n                     (loop [i 0 result-set []] (if (&lt; i 100) (recur (inc i) (conj result-set (calc-mcs-prices start-price (rand) history))) result-set))))&quot;, :offset 299, :ns &quot;clj-test1.montecarlo-simulation&quot;} {:command &quot;(start-simulation \&quot;DAX\&quot;)&quot;, :offset 24, :ns &quot;clj-test1.montecarlo-simulation&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -577,43 +682,49 @@
       <option name="project" value="LOCAL" />
       <updated>1504036336689</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="start-simulation added">
+      <created>1504115856311</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1504115856311</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1378" height="780" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074074" sideWeight="0.22322775" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27314112" sideWeight="0.50617284" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48103186" sideWeight="0.508046" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.49382716" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32164633" sideWeight="0.77677226" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17905918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.49195403" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.85987747" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37808642" sideWeight="0.77677226" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26858878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.85987747" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -696,7 +807,9 @@
     <MESSAGE value="calc-mcs-prices" />
     <MESSAGE value="calc-mcs-prices ne vraca negativne vrednosti" />
     <MESSAGE value="sve radi" />
-    <option name="LAST_COMMIT_MESSAGE" value="sve radi" />
+    <MESSAGE value="start-simulation added" />
+    <MESSAGE value="exchanges closed" />
+    <option name="LAST_COMMIT_MESSAGE" value="exchanges closed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -707,28 +820,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yahoofinance-api-develop/src/main/java/yahoofinance/histquotes2/QueryInterval.java" />
-    <entry file="file://D:/yahoofinance-api-develop/src/main/java/yahoofinance/quotes/stock/StockQuote.java" />
-    <entry file="file://D:/yahoofinance-api-develop/src/main/java/yahoofinance/quotes/fx/FxQuote.java" />
-    <entry file="file://D:/yahoofinance-api-develop/src/main/java/yahoofinance/histquotes2/HistQuotes2Request.java" />
-    <entry file="file://D:/yahoofinance-api-develop/src/main/java/yahoofinance/YahooFinance.java" />
-    <entry file="file://$PROJECT_DIR$/src/yahoofinance-api-develop/src/test/java/yahoofinance/mock/ResponseResource.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/yahoofinance/quotes/QuotesRequest.java" />
-    <entry file="file://$PROJECT_DIR$/test/yahoofinance/util/RedirectableRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1323">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yahoofinance/Stock.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/yahoofinance/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/yahoofinance/YahooFinance.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/yahoofinance/YahooFinance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
@@ -757,199 +856,6 @@
     <entry file="file://$PROJECT_DIR$/src/yahoofinance/yahoofinance/Utils.java" />
     <entry file="file://$PROJECT_DIR$/src/yahoofinance/histquotes/HistQuotesRequest.java" />
     <entry file="file://$PROJECT_DIR$/src/yahoofinance/yahoofinance/YahooFinance.java" />
-    <entry file="file://$PROJECT_DIR$/src/histquotes/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quotes/stock/StockQuotesRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quotes/fx/FxQuotesRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quotes/stock/StockDividend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/histquotes/HistQuotesRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quotes/stock/StockStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/histquotes2/HistQuotes2Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yahoofinance/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="245" column="4" lean-forward="true" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quotes/QuotesProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quotes/QuotesRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exchanges/ExchangeTimeZone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="188" column="13" lean-forward="true" selection-start-line="188" selection-start-column="13" selection-end-line="188" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yahoofinance/YahooFinance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quotes/stock/StockQuote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/histquotes/HistoricalQuote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-            <element signature="e#1009#1010#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1126#1127#0" expanded="false" />
-            <element signature="e#1153#1154#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-            <element signature="e#1227#1228#0" expanded="false" />
-            <element signature="e#1262#1263#0" expanded="false" />
-            <element signature="e#1289#1290#0" expanded="false" />
-            <element signature="e#1333#1334#0" expanded="false" />
-            <element signature="e#1365#1366#0" expanded="false" />
-            <element signature="e#1461#1462#0" expanded="false" />
-            <element signature="e#1487#1488#0" expanded="false" />
-            <element signature="e#1529#1530#0" expanded="false" />
-            <element signature="e#1559#1560#0" expanded="false" />
-            <element signature="e#1661#1662#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1732#1733#0" expanded="false" />
-            <element signature="e#1764#1765#0" expanded="false" />
-            <element signature="e#1800#1801#0" expanded="false" />
-            <element signature="e#1828#1829#0" expanded="false" />
-            <element signature="e#1874#1875#0" expanded="false" />
-            <element signature="e#1908#1909#0" expanded="false" />
-            <element signature="e#2346#2347#0" expanded="false" />
-            <element signature="e#2377#2378#0" expanded="false" />
-            <element signature="e#2429#2430#0" expanded="false" />
-            <element signature="e#2469#2470#0" expanded="false" />
-            <element signature="e#2500#2501#0" expanded="false" />
-            <element signature="e#2529#2530#0" expanded="false" />
-            <element signature="e#2571#2572#0" expanded="false" />
-            <element signature="e#2607#2608#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj_test1/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yahoofinance/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4828">
-          <caret line="331" column="55" lean-forward="false" selection-start-line="331" selection-start-column="47" selection-end-line="331" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#915#916#0" expanded="false" />
-            <element signature="e#1756#1757#0" expanded="false" />
-            <element signature="e#1796#1797#0" expanded="false" />
-            <element signature="e#2026#2027#0" expanded="false" />
-            <element signature="e#2059#2060#0" expanded="false" />
-            <element signature="e#3144#3145#0" expanded="false" />
-            <element signature="e#3178#3179#0" expanded="false" />
-            <element signature="e#3394#3395#0" expanded="false" />
-            <element signature="e#3427#3428#0" expanded="false" />
-            <element signature="e#4492#4493#0" expanded="false" />
-            <element signature="e#4526#4527#0" expanded="false" />
-            <element signature="e#4757#4758#0" expanded="false" />
-            <element signature="e#4793#4794#0" expanded="false" />
-            <element signature="e#5895#5896#0" expanded="false" />
-            <element signature="e#5935#5936#0" expanded="false" />
-            <element signature="e#10133#10134#0" expanded="false" />
-            <element signature="e#10171#10172#0" expanded="false" />
-            <element signature="e#10208#10209#0" expanded="false" />
-            <element signature="e#10237#10238#0" expanded="false" />
-            <element signature="e#10395#10396#0" expanded="false" />
-            <element signature="e#10422#10423#0" expanded="false" />
-            <element signature="e#10466#10467#0" expanded="false" />
-            <element signature="e#10498#10499#0" expanded="false" />
-            <element signature="e#10663#10664#0" expanded="false" />
-            <element signature="e#10694#10695#0" expanded="false" />
-            <element signature="e#10746#10747#0" expanded="false" />
-            <element signature="e#10786#10787#0" expanded="false" />
-            <element signature="e#10972#10973#0" expanded="false" />
-            <element signature="e#11008#11009#0" expanded="false" />
-            <element signature="e#11070#11071#0" expanded="false" />
-            <element signature="e#11120#11121#0" expanded="false" />
-            <element signature="e#11170#11171#0" expanded="false" />
-            <element signature="e#11235#11236#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/incanter/incanter-core/1.5.7/incanter-core-1.5.7.jar!/incanter/stats.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -957,10 +863,239 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj_test1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/histquotes/HistoricalQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/histquotes/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/histquotes/HistQuotesRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2264#2281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/histquotes2/CrumbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/histquotes2/HistQuotes2Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#2887#2904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/histquotes2/IntervalMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/histquotes2/QueryInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/fx/FxQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/fx/FxQuotesRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/fx/FxSymbols.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/stock/StockDividend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/stock/StockQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/stock/StockQuotesData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/stock/StockQuotesRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/yahoofinance/YahooFinance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5321#5338#0" expanded="true" />
+            <element signature="e#5759#5774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/exchanges/ExchangeTimeZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/stock/StockStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/QuotesProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/yahoofinance/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/quotes/QuotesRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/yahoofinance/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/yahoofinance/util/RedirectableRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/util/RedirectableRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_test1/montecarlo_simulation.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="72" column="24" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1022,7 +1157,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

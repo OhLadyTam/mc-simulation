@@ -17,19 +17,19 @@ import quotes.stock.StockQuotesRequest;
 
 public class YahooFinance {
     
-    public static final String QUOTES_BASE_URL = System.getProperty("yahoofinance.baseurl.quotes", "http://download.finance.yahoo.com/d/quotes.csv");
-    public static final String HISTQUOTES_BASE_URL = System.getProperty("yahoofinance.baseurl.histquotes", "https://ichart.yahoo.com/table.csv");
-    public static final String HISTQUOTES2_ENABLED = System.getProperty("yahoofinance.histquotes2.enabled", "true");
-    public static final String HISTQUOTES2_BASE_URL = System.getProperty("yahoofinance.baseurl.histquotes2", "https://query1.finance.yahoo.com/v7/finance/download/");
-    public static final String HISTQUOTES2_SCRAPE_URL = System.getProperty("yahoofinance.scrapeurl.histquotes2", "https://finance.yahoo.com/quote/%5EGSPC/options");
-    public static final String HISTQUOTES2_CRUMB_URL = System.getProperty("yahoofinance.crumburl.histquotes2", "https://query1.finance.yahoo.com/v1/test/getcrumb");
-    public static final String HISTQUOTES2_CRUMB = System.getProperty("yahoofinance.crumb", "");
-    public static final String HISTQUOTES2_COOKIE = System.getProperty("yahoofinance.cookie", "");
+    public static final String QUOTES_BASE_URL = System.getProperty("lib.yahoofinance.baseurl.lib.quotes", "http://download.finance.yahoo.com/d/lib.quotes.csv");
+    public static final String HISTQUOTES_BASE_URL = System.getProperty("lib.yahoofinance.baseurl.lib.histquotes", "https://ichart.yahoo.com/table.csv");
+    public static final String HISTQUOTES2_ENABLED = System.getProperty("lib.yahoofinance.lib.histquotes2.enabled", "true");
+    public static final String HISTQUOTES2_BASE_URL = System.getProperty("lib.yahoofinance.baseurl.lib.histquotes2", "https://query1.finance.yahoo.com/v7/finance/download/");
+    public static final String HISTQUOTES2_SCRAPE_URL = System.getProperty("lib.yahoofinance.scrapeurl.lib.histquotes2", "https://finance.yahoo.com/quote/%5EGSPC/options");
+    public static final String HISTQUOTES2_CRUMB_URL = System.getProperty("lib.yahoofinance.crumburl.lib.histquotes2", "https://query1.finance.yahoo.com/v1/test/getcrumb");
+    public static final String HISTQUOTES2_CRUMB = System.getProperty("lib.yahoofinance.crumb", "");
+    public static final String HISTQUOTES2_COOKIE = System.getProperty("lib.yahoofinance.cookie", "");
     public static final String QUOTES_CSV_DELIMITER = ",";
     public static final String TIMEZONE = "America/New_York";
     
     public static final int CONNECTION_TIMEOUT = 
-            Integer.parseInt(System.getProperty("yahoofinance.connection.timeout", "10000"));
+            Integer.parseInt(System.getProperty("lib.yahoofinance.connection.timeout", "10000"));
     
     public static final Logger logger = Logger.getLogger(YahooFinance.class.getName());
     

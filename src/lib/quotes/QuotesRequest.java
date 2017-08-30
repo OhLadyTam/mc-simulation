@@ -19,7 +19,7 @@ import java.util.logging.Level;
  *
  * @author Stijn Strickx
  * @param <T> Type of object that can contain the retrieved information from a
- * quotes request
+ * lib.quotes request
  */
 public abstract class QuotesRequest<T> {
 

@@ -1,12 +1,15 @@
 (ns clj-test1.montecarlo-simulation
-  (:require incanter.stats yahoofinance histquotes quotes.stock)
-  (:import (yahoofinance YahooFinance Stock)
-           (histquotes HistoricalQuote)
-           (quotes.stock StockQuote)
-           (incanter.stats incanter.stats)))
+  (:require incanter.stats)
+  (:import yahoofinance.YahooFinance yahoofinance.Stock histquotes.HistoricalQuote quotes.stock.StockQuote))
+  ;(:import (yahoofinance YahooFinance Stock)
+   ;        (histquotes HistoricalQuote)
+    ;       (quotes.stock StockQuote)
+     ;      (incanter.stats incanter.stats)))
 
-(def h (.getHistory (yahoofinance.YahooFinance/get "MSFT")))
-(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
+;(ns clj-test1.montecarlo-simulation (:import yahoofinance.YahooFinance))
+
+(def h (.getHistory (yahoofinance.YahooFinance/get "DJI")))
+(def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get "GOOG"))))
 (println price)
 
 
@@ -72,3 +75,4 @@
 
 (start-simulation "DAX")
 
+(defn -main [&args] (start-simulation "DAX"))

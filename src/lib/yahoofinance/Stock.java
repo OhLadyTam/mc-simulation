@@ -59,9 +59,9 @@ public class Stock {
     }
     
     /**
-     * Returns the basic quotes data available for this stock.
+     * Returns the basic lib.quotes data available for this stock.
      * 
-     * @return      basic quotes data available for this stock
+     * @return      basic lib.quotes data available for this stock
      * @see         #getQuote(boolean) 
      */
     public StockQuote getQuote() {
@@ -69,7 +69,7 @@ public class Stock {
     }
     
     /**
-     * Returns the basic quotes data available for this stock.
+     * Returns the basic lib.quotes data available for this stock.
      * This method will return null in the following situations:
      * <ul>
      * <li> the data hasn't been loaded yet
@@ -83,7 +83,7 @@ public class Stock {
      * in the same request.
      * 
      * @param refresh   indicates whether the data should be requested again to Yahoo Finance
-     * @return          basic quotes data available for this stock
+     * @return          basic lib.quotes data available for this stock
      * @throws java.io.IOException when there's a connection problem
      */
     public StockQuote getQuote(boolean refresh) throws IOException {
@@ -185,7 +185,7 @@ public class Stock {
     }
     
     /**
-     * Requests the historical quotes for this stock with the following characteristics.
+     * Requests the historical lib.quotes for this stock with the following characteristics.
      * <ul>
      * <li> from: 1 year ago (default)
      * <li> to: today (default)
@@ -193,7 +193,7 @@ public class Stock {
      * </ul>
      * 
      * @param interval      the interval of the historical data
-     * @return              a list of historical quotes from this stock
+     * @return              a list of historical lib.quotes from this stock
      * @throws java.io.IOException when there's a connection problem
      * @see                 #getHistory() 
      */
@@ -202,7 +202,7 @@ public class Stock {
     }
     
     /**
-     * Requests the historical quotes for this stock with the following characteristics.
+     * Requests the historical lib.quotes for this stock with the following characteristics.
      * <ul>
      * <li> from: specified value
      * <li> to: today (default)
@@ -210,7 +210,7 @@ public class Stock {
      * </ul>
      * 
      * @param from          start date of the historical data
-     * @return              a list of historical quotes from this stock
+     * @return              a list of historical lib.quotes from this stock
      * @throws java.io.IOException when there's a connection problem
      * @see                 #getHistory() 
      */
@@ -219,7 +219,7 @@ public class Stock {
     }
     
     /**
-     * Requests the historical quotes for this stock with the following characteristics.
+     * Requests the historical lib.quotes for this stock with the following characteristics.
      * <ul>
      * <li> from: specified value
      * <li> to: today (default)
@@ -228,7 +228,7 @@ public class Stock {
      * 
      * @param from          start date of the historical data
      * @param interval      the interval of the historical data
-     * @return              a list of historical quotes from this stock
+     * @return              a list of historical lib.quotes from this stock
      * @throws java.io.IOException when there's a connection problem
      * @see                 #getHistory() 
      */
@@ -237,7 +237,7 @@ public class Stock {
     }
     
     /**
-     * Requests the historical quotes for this stock with the following characteristics.
+     * Requests the historical lib.quotes for this stock with the following characteristics.
      * <ul>
      * <li> from: specified value
      * <li> to: specified value
@@ -246,7 +246,7 @@ public class Stock {
      * 
      * @param from          start date of the historical data
      * @param to            end date of the historical data
-     * @return              a list of historical quotes from this stock
+     * @return              a list of historical lib.quotes from this stock
      * @throws java.io.IOException when there's a connection problem
      * @see                 #getHistory() 
      */
@@ -255,7 +255,7 @@ public class Stock {
     }
     
     /**
-     * Requests the historical quotes for this stock with the following characteristics.
+     * Requests the historical lib.quotes for this stock with the following characteristics.
      * <ul>
      * <li> from: specified value
      * <li> to: specified value
@@ -265,7 +265,7 @@ public class Stock {
      * @param from          start date of the historical data
      * @param to            end date of the historical data
      * @param interval      the interval of the historical data
-     * @return              a list of historical quotes from this stock
+     * @return              a list of historical lib.quotes from this stock
      * @throws java.io.IOException when there's a connection problem
      * @see                 #getHistory() 
      */
