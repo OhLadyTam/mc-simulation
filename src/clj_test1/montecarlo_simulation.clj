@@ -25,10 +25,9 @@
     (reduce (fn [s coll] (conj s (apply f coll))) [] historical-close)))
 
 
-(get-historical-closes get-close-price (vector (.getHistory (yahoofinance.YahooFinance/get "MSFT"))))
+(defn build-historical-close-vector [ticker] (get-historical-closes get-close-price (vector (.getHistory (yahoofinance.YahooFinance/get ticker)))))
+(build-historical-close-vector "MSFT")
 
-(defn build-historical-closes-vector [] ( (reduce conj [] h)))
-(build-historical-closes-vector)
 
 (defn standard-deviation [coll]
   (let [avg (mean coll)
@@ -39,8 +38,6 @@
     (-> (/ (apply + squares)
            (- total 1))
         (Math/sqrt))))
-
-(standard-deviation moj-vektor)
 
 (defn normalize-stddev [coll]
   (loop [iter 1 norm []]
@@ -53,28 +50,25 @@
                        (double (nth coll (- iter 1) ))) 1)))
       (standard-deviation norm))))
 
-(normalize-stddev moj-vektor)
-
-(println (* price (+ 1 (incanter.stats/quantile-normal (rand) :mean 0 :sd (normalize-stddev moj-vektor)))))
-
-
 (defn calc-daily-volatility [coll] (normalize-stddev coll))
 (defn calc-annual-volatility [coll] (* (Math/sqrt 252) (calc-daily-volatility coll)))
 
-(calc-daily-volatility moj-vektor)
-(calc-annual-volatility moj-vektor)
-
-(defn calc-mcs-price [prob mn price]
+(defn calc-mcs-price [prob mn price histCloses]
   (* price (+ 1
-              (incanter.stats/quantile-normal prob :mean mn :sd (calc-daily-volatility moj-vektor)))))
+              (incanter.stats/quantile-normal prob :mean mn :sd (calc-daily-volatility histCloses)))))
 
-(def start (.getPrice (.getQuote (yahoofinance.YahooFinance/get "MSFT"))))
-
+(defn get-start-price [ticker] (.getPrice (.getQuote (yahoofinance.YahooFinance/get ticker))))
+(get-start-price "MSFT")
 (defn calc-mcs-prices
-  [price prob]
-  (loop [i 0 result-set [(calc-mcs-price prob 0 price)]]
+  [price prob histCloses]
+  (loop [i 0 result-set [(calc-mcs-price prob 0 price histCloses)]]
     (if (< i 21)
-      (recur (inc i) (conj result-set (calc-mcs-price prob 0 (last result-set))))
+      (recur (inc i) (conj result-set (calc-mcs-price prob 0 (last result-set) histCloses)))
       result-set)))
 
-(calc-mcs-prices start (rand))
+(defn start-simulation [ticker] ()
+                   (let [start-price (get-start-price ticker) history (build-historical-close-vector ticker)]
+                     (loop [i 0 result-set []] (if (< i 100) (recur (inc i) (conj result-set (calc-mcs-prices start-price (rand) history))) result-set))))
+
+(start-simulation "DAX")
+
