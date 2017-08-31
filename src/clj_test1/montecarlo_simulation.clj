@@ -75,4 +75,4 @@
 
 (start-simulation "DAX")
 
-(defn -main [&args]   (println (start-simulation "DAX")))
+(defn -main [args]   (println (start-simulation args)))
