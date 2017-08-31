@@ -7,7 +7,7 @@
                  [incanter "1.5.7"]]
 
   :java-source-paths ["D:\\clj-testovi\\src\\lib"]
-  ; :main [clj-test1.montecarlo-simulation]
-  ; :aot [clj-test1.montecarlo-simulation]
+   :main clj-test1.montecarlo-simulation
+   :aot [clj-test1.montecarlo-simulation]
   )
 
