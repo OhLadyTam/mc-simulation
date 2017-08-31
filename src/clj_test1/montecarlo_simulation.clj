@@ -8,7 +8,7 @@
 
 ;(ns clj-test1.montecarlo-simulation (:import yahoofinance.YahooFinance))
 
-(def h (.getHistory (yahoofinance.YahooFinance/get "DJI")))
+(def h (.getHistory (YahooFinance/get "DJI")))
 (def price (.getPrice (.getQuote (yahoofinance.YahooFinance/get "GOOG"))))
 (println price)
 
